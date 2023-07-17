@@ -1,91 +1,85 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    margin: auto;
+}
 
-        #logo{
-            margin: auto 0px;
-        }
-        #navBar {
-            display: flex;
-            justify-content: space-around;
-            background-color: rgb(36 36 94);
-            height: auto;
-            margin: 0px 0px 0px 0px;
-            padding: 0;
-        }
-        .nav-list {
-            list-style-type: none;
-            display: flex;
-        }
-        .nav-li {
-            margin:0 1.5vw;
-            font-size: 1.5vw;
-            padding: .5vw .5vw
+#navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(36 36 94);
+}
 
-        }
-        .footer-list {
-            list-style-type: none;
-            font-size: 0.1vw;
-        }
-        .footer-li{
-            font-size: 1vw;
-            margin-right: 50px;
-        }
-        .nav-li:hover{
-            background-color: aliceblue;
-            color: rgb(36 36 94);
-            border-radius: 2px;
-            padding: .5vw .5vw
-        }
+#logo {
+    font-size: 2vw;
+}
 
-        body {
-            background-color: black;
-            color: aliceblue;
-        }
-        a{
-            color: aliceblue;
-            text-decoration:none;
+.nav-list {
+    list-style-type: none;
+    display: flex;
+}
 
-        }
+.nav-li {
+    margin: 0 1.5vw;
+    font-size: 1.5vw;
+    padding: .5vw .5vw;
+    color: aliceblue;
+    text-decoration: none;
+}
 
-        h1 {
-            font-size: 2vw;
-            margin: 10px 0px 0px 0px;
-        }
-        #footer-logo{
-            font-size: 1.7vw;
-            margin: auto 10px;
-            
-        }
-        #footer-div{
-            display:flex;
-            justify-content: space-around;
-        }
-        #div2 {
-            display: flex;
-            justify-content:space-around;
-            margin: 0 0;
+.nav-li:hover {
+    background-color: aliceblue;
+    color: rgb(36 36 94);
+    border-radius: 2px;
+    padding: .5vw .5vw
+}
 
-        }
-        #intro{
-            max-width: 50%;
-            font-size: 3vw;
-        }
-        #footer-main-div{
-            background-color:rgb(36 36 94);
-            color: aliceblue;
-            height: auto;
-
-        }
-        body{
-            margin: auto;
-        }
-        #LastLine{
-            color: aliceblue;
-            font-size: .9vw;
-            text-align: center;
-            margin-top: 1vw;
-
-        }
+#div2 {
+    display: flex;
+    justify-content: space-around;
+}
 
 
-        #about{
-            font-size: 2vw;
-        }
+#intro {
+    font-size: 3vw;
+    text-align:left;
+}
+
+#footer-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+#footer-logo {
+    font-size: 1.7vw;
+    margin: auto auto;
+
+}
+
+.footer-list {
+    list-style-type: none;
+    margin: auto auto;
+}
+
+.footer-li {
+    font-size: 1vw;
+}
+
+#footer-main-div {
+    background-color: rgb(36 36 94);
+
+}
+
+#LastLine {
+    font-size: .9vw;
+    text-align: center;
+}
+hr{
+    margin: 1vw auto
+}
+
+#about {
+    font-size: 2vw;
+    max-width: 40%;
+}
