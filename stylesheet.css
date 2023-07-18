@@ -2,6 +2,7 @@ body {
     background-color: black;
     color: aliceblue;
     margin: auto;
+    /* height: auto; */
 }
 
 #navBar {
@@ -82,4 +83,7 @@ hr{
 #about {
     font-size: 2vw;
     max-width: 40%;
+}
+section{
+    margin: 5vw auto;
 }
